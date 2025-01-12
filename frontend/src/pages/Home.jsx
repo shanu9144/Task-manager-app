@@ -32,7 +32,7 @@ const Home = () => {
                 navigate('/login');
                 return;
             }
-            const res = await axios.get('http://localhost:5000/api/auth/user', {
+            const res = await axios.get('https://task-manager-app-k08x.onrender.com/api/auth/user', {
                 headers: { Authorization: `Bearer ${token}` }
             });
             if (res.data) {
