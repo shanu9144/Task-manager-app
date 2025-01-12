@@ -19,7 +19,7 @@ const Login = () => {
 
         try {
             console.log('Attempting login with:', { email }); // Debug log
-            const res = await axios.post('http://localhost:5000/api/auth/login', {
+            const res = await axios.post('https://task-manager-app-k08x.onrender.com/api/auth/login', {
                 email: email.trim(),
                 password: password.trim()
             });
