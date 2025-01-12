@@ -17,7 +17,7 @@ const Home = () => {
                 navigate('/login');
                 return;
             }
-            const res = await axios.get('http://localhost:5000/api/tasks', 
+            const res = await axios.get('https://task-manager-app-k08x.onrender.com/api/tasks', 
             { headers: { Authorization: `Bearer ${token}` } });
             setTasks(res.data);
         } catch (error) {
