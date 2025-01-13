@@ -68,7 +68,7 @@ A full-stack task management application built with Node.js, Express, MongoDB, a
 
 ## Video Explanation
 
-[![Task Manager Project Explanation]()](https://www.youtube.com/watch?v=nbaqTQvXpt4)
+[![Task Manager Project Explanation]()](https://www.youtube.com/watch?v=O8LyCSK2bAM)
 
 Click the image above to watch a video explanation of the project.
 
